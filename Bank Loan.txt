@@ -1,0 +1,19 @@
+import java.util.*;
+public class Firstporgram{
+    public static void main(String[]args){
+        LinkedList <String> requirement= new LinkedList<>();{
+            requirement.add("Aadhar card");
+            requirement.add("Pan card");
+            requirement.add("Cibil score");
+            if (requirement.contains("Aadhar card")&& requirement.contains("Pan card")&& requirement.contains("Cibil score"))
+            {
+                
+                System.out.println("You are Eligible for the Loan");
+
+            }
+            else {
+                System.out.println("You are not Eligible for the Loan ");
+            }
+        }
+    }
+}
