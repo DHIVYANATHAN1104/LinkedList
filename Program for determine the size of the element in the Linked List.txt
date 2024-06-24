@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main {
+    public static void main(String[]args){
+        LinkedList<String> colors=new LinkedList<>();{
+
+        colors.add("Purple");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Pink");
+        colors.add("Green");
+        colors.add("Orange");
+        System.out.println(colors);
+       
+        System.out.println("Size of elements="+ colors.size());
+        
+        
+             { 
+            
+             }
+        }    }
+
+    
+}
