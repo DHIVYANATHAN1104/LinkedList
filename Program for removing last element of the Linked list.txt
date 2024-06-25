@@ -1,0 +1,42 @@
+import java.util.*;
+public class Aathi {
+    public static void main(String[]args){
+        LinkedList<String> colors=new LinkedList<>();{
+
+        colors.add("Gold");
+        colors.add("Black");
+        colors.add("Purple");
+        colors.add("Pink");
+        colors.add("Green");
+        colors.add("Orange");
+        colors.add("Red");
+        colors.add("Yellow");
+        colors.add("Grey");
+        System.out.println("The elements in the Linked list:");
+       
+        System.out.println(colors);
+        colors.removeLast();
+        System.out.println("After removing last element of the Linked list:");
+        
+        System.out.println(colors);
+       
+        
+             { 
+            
+             }
+        }    }
+
+    
+}
+
+--------------------------------------------------------------------------------------------
+
+Output:
+
+The elements in the Linked list:
+
+[Gold, Black, Purple, Pink, Green, Orange, Red, Yellow, Grey]
+
+After removing last element of the Linked list:
+
+[Gold, Black, Purple, Pink, Green, Orange, Red, Yellow]
