@@ -1,0 +1,44 @@
+import java.util.*;
+public class Main {
+    public static void main(String[]args){
+        LinkedList<String> colors=new LinkedList<>();{
+
+        colors.add("Purple");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Pink");
+        colors.add("Green");
+        colors.add("Orange");
+        System.out.println(colors);
+        colors.clear();
+        System.out.println("After clearing the element in the linked list:");
+        System.out.println(colors);
+        colors.add("Red");
+        colors.add("Yellow");
+        colors.add("Grey");
+        System.out.println("After clearing the addition of the elements:");
+       
+    
+        System.out.println(colors);
+       
+        
+             { 
+            
+             }
+        }    }
+
+    
+}
+----------------------------------------------------------------------------
+
+Output:
+
+[Purple, Black, Red, Pink, Green, Orange]
+
+After clearing the element in the linked list:
+
+[]
+
+After clearing the addition of the elements:
+
+[Red, Yellow, Grey]
